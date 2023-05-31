@@ -1,7 +1,7 @@
 body{background-color:#983636; color: white;}
 
 header{background-color: rgb(110, 0, 0);}
-.logo-colegio{width: 20%;}
+.logo-colegio{width: 15%;}
 classe2{background: color #383D58 white;display:flex;justify-content:space-around ;}
 logo{display:inline-block;margin:0 16px; padding: 24px 0; font-size:24px;}
 *{margin:0; padding:0;}
