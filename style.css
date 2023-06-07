@@ -14,3 +14,16 @@ classe5{padding: 24px 0;}
 .Bernardo{width: 10%;}
 .Themilly{width: 10%;}
 .Cara-q-fez-td{width: 10%;}
+.coluna{
+    float:  left;
+    width: 10%;
+    .row:after {
+        content: "";
+        clear: both;
+        display: table;
+}
+@media screen (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
+}
