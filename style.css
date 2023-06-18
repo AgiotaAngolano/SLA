@@ -10,12 +10,13 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 20px 0;
+    
 }
 
 .foto {
  width: 60px;
  height: 60px;
- border-radius: 60px;
+ border-radius: 50%;
 }
 
 .menu1 li{
