@@ -4,27 +4,12 @@ body {
 }
 
 header {
-        background-color: rgb(45, 52, 75);
-        color: white;
-        display: flex;
-        justify-content: space-around;
-        padding: 15px 0;
-        font-family: 'Ubuntu', sans-serif;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        align-items: center
+      height: 10vh;
+      display: flex;
+      justify-content: space-between;
+      background-color: #000;
 }
 
-.listas {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
 
 .foto {
  width: 60px;
@@ -32,9 +17,12 @@ header {
  border-radius: 50%;
 }
 
-.menu1 li{
+.menu1 {
  
-    margin 0 10px;
+    width: 42px;
+    height: 42px;
+    border-radius: 100px;
+    background-color: aqua;
 
 }
 
