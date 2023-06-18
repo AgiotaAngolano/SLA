@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: red;
+    background-color: #000;
 }
 
 li {
@@ -78,7 +78,8 @@ li {
 .foto {
  width: 60px;
  height: 60px;
- border-radius: 50%;
+ border-radius: 70%;
+ background-color: #000;
 }
 
 
@@ -136,7 +137,7 @@ h1 {
 
 footer {
     width: 100%;
-    background-color: #fff;
+    background-color: #000;
     display: flex;
     justify-content: space-around;
     align-items: center;
