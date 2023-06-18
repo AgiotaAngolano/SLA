@@ -4,30 +4,50 @@ body {
 }
 
 header {
-    background-color: #ff5b5b;
-}
-
-.logo-colegio {
-    width: 15%;
-    border-radius: 15%;
-}
-
-classe2 {
-    background: color #383D58 white;
+    width: 100%;
+    background-color: #000;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
 }
 
-logo {
+.logoimagem {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.logo1 {
+    display: flex;
+    align-items: center;
+}
+
+.menu1 li{
     display: inline-block;
-    margin: 0 16px;
-    padding: 24px 0;
+    margin 0 10px;
+
+}
+
+.menu1 li a  {
     font-size: 24px;
+    text-decoration: none;
+    color: white;
+    text-transform:uppercase ;
+    padding: 10px 25px;
+    border-radius: 10px;
+
+}
+
+.menu1 li a:hover {
+    background-color:rgba(100, 100, 100, 0.8);
+
 }
 
 * {
     margin: 0;
     padding: 0;
+
 }
 
 classe4 {
