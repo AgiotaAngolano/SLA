@@ -72,6 +72,11 @@ a{
     transition: all 0.3s ease-in-out;
 }
 
+h1 {
+  align-items: center;
+  background-color: #000;
+  margin-top: 20px;
+}
 
 ul {
 
@@ -80,7 +85,6 @@ ul {
 }
 
 li {
-    color: #fff;
     list-style-type: none;
     cursor: pointer;
     padding-left: 2rem;
