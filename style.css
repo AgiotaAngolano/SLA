@@ -38,17 +38,7 @@ header {
 * {
     margin: 0;
     padding: 0;
-
-}
-
-
-classe5 {
-    padding: 24px 0;
-}
-
-.logo-colegio {
-    position: initial;
-}
+  }
 
 
 .alunos {
@@ -59,4 +49,38 @@ height: 25px;
 
 h2 {
     font-size: 25px;
+}
+
+h1 {
+    font-size: 40px;
+    align-items: center;
+}
+
+#participantes {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    background: #181818
+ }
+
+ .alunos-todos {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; 
+}
+
+
+.participantes-div {
+    text-align: center;
+    padding: 50px 0;
+  }
+
+
+  .fotos-alunos {
+    width: 120px;
+    padding: 0px 0px 20px 0px;
+}
+
+.nome {
+    padding: 0px 0px 20px 0px;
 }
