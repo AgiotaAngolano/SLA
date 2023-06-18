@@ -59,7 +59,7 @@ a{
     transition: 0.5s ease;
 }
 .nav-link:hover {
-    color: red;
+    color: rgb(204, 27, 27);
 }
 
 
