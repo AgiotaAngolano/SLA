@@ -31,10 +31,6 @@ header {
 
 }
 
-.menu1 li a:hover {
-    background-color:rgba(100, 100, 100, 0.8);
-
-}
 
 * {
     margin: 0;
