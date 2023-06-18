@@ -65,7 +65,6 @@ h1 {
  }
 
  .alunos-todos {
-    display: grid;
     grid-template-columns: 25% 25% 25% 25%; 
 }
 
@@ -73,6 +72,7 @@ h1 {
 .participantes-div {
     text-align: center;
     padding: 50px 0;
+    display: inline-block;
   }
 
 
@@ -85,11 +85,5 @@ h1 {
     padding: 0px 0px 20px 0px;
 }
 
-.textinho {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
+
 
