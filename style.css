@@ -90,5 +90,6 @@ h1 {
 .textinho {
     margin: 25px;
     text-align: center;
+    display: inline-block;
 }
 
