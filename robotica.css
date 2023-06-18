@@ -72,6 +72,11 @@ a{
     transition: all 0.3s ease-in-out;
 }
 
+h1 {
+    font-size: 25px;
+    align-items: center;
+}
+
 .foto {
  width: 60px;
  height: 60px;
