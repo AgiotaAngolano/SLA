@@ -16,6 +16,16 @@ header {
         align-items: center
 }
 
+.listas {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
 .foto {
  width: 60px;
  height: 60px;
