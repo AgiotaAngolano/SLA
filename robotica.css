@@ -104,3 +104,9 @@ divBusca{
   .video-led{
     width: 242px;
   }
+  
+  .textinho {
+    margin: 25px;
+    text-align: center;
+    display: inline-block;
+}
