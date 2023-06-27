@@ -106,8 +106,8 @@ divBusca{
   }
 
   .textinho do led {
-width: 31px;
+width: 50px;
 font-style: italic;
-font-size: 18px;
-height: auto;
+font-size: 40px;
+position: center;
   }
