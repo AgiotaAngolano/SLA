@@ -101,5 +101,6 @@ divBusca{
     width:260px;
     
   }
-  .video-led
-   width:25px 
+  .video-led{
+    width: 30%;
+  }
