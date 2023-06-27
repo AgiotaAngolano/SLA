@@ -103,4 +103,6 @@ divBusca{
   }
   .video-led{
     width: 242px;
+    height: 60px;
+    border-radius: 50%;
   }
