@@ -4,7 +4,7 @@ body {
 }
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -31,7 +31,7 @@ li {
     list-style: none;
 }
 
-a{
+a {
     color: #fff;
     text-decoration: none;
 }
@@ -58,8 +58,9 @@ a{
 .nav-link {
     transition: 0.5s ease;
 }
+
 .nav-link:hover {
-    color:rgb(204, 27, 27);
+    color: rgb(204, 27, 27);
 }
 
 
@@ -77,36 +78,47 @@ a{
     margin-top: 20px;
     align-items: center;
 }
+
 .foto {
- width: 60px;
- height: 60px;
- border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
 }
 
-divBusca{
-    background-color:#fff;
-    border:solid 1px;
-    border-radius:15px;
-    width:300px;
-  }
-  
-  #txtBusca{
-    float:left;
-    background-color:#fff;
-    padding-left:5px;
-    font-style:italic;
-    font-size:18px;
-    border:none;
-    height:32px;
-    width:260px;
-    
-  }
+divBusca {
+    background-color: #fff;
+    border: solid 1px;
+    border-radius: 15px;
+    width: 300px;
+}
 
-  .textinho do led {
-width: 50px;
-font-style: italic;
-font-size: 40px;
-position: center;
-  }
+#txtBusca {
+    float: left;
+    background-color: #fff;
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 260px;
 
-  
+}
+
+.textinho do led {
+    width: 50px;
+    font-style: italic;
+    font-size: 40px;
+    position: center;
+}
+
+.foto 1 {
+    width: 50px;
+}
+
+.foto 2 {
+    width: 50px;
+}
+
+.foto 3 {
+    width: 50px;
+}
