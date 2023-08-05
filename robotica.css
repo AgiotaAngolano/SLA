@@ -122,3 +122,12 @@ divBusca {
 .foto 3 {
     width: 50px;
 }
+
+.projetos{
+    background-image:linear-gradient(#610606,#5c1c1c);
+    color:rgb(240, 213, 187);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 24px 0;
+}
