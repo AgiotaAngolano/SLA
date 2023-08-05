@@ -124,10 +124,11 @@ divBusca {
 }
 
 .projetos{
-    background-image:linear-gradient(rgb(204, 27, 27));
+    background-image:linear-gradient(rgb(99, 9, 9));
     color:rgb(240, 213, 187);
-    justify-content: center;
+    min-height: 70px;
     display: flex;
     align-items: center;
-    padding: 24px 0;
+    justify-content: space-between;
+    padding: 0 34px;
 }
