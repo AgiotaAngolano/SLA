@@ -111,16 +111,9 @@ divBusca {
     position: center;
 }
 
-.foto 1{
-    width: 50px;
-}
-
-.foto 2{
-    width: 50px;
-}
-
-.foto 3{
-    width: 50px;
+.fotos.projetos{
+    width: 25%; 
+    border-radius: 70%;
 }
 
 .projetos{
