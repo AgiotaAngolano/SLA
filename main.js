@@ -1,8 +1,8 @@
 function tocar(idElementoAudio) {
-    document.querySelector(`#som_tecla_pom`).play();
+    document.querySelector('#som_tecla_pom').play();
 }
 
-const lista = document.querySelectorAll(`.tecla`);
+const lista = document.querySelectorAll('.tecla');
 
 let contador = 0;
 
@@ -11,7 +11,7 @@ while (contador < lista.length)
     const classe = tecla.classList[1];
     //console.log(classe);
 
-    const idSom = `´#som_${classe}`;
+    const idSom = '#som_${classe}';
     //console.log(idSom);
 
     tecla.onclick = function(){
@@ -22,11 +22,11 @@ while (contador < lista.length)
     //console.log(Contador);
     
     tecla.onkeydown = function (evento){
-    if(evento.code === ´Space` || evento.code === `Enter´);
-      tecla.classList.add(´ativa´);
-    //console.log(evento.code === `Space´) || evento.code === `Enter´);
+    if(evento.code === 'Space'|| evento.code === 'Enter');
+      tecla.classList.add('ativa');
+    //console.log(evento.code === 'Space') || evento.code === 'Enter');
 
     }
     tecla.onkeyup = function(){
-tecla.classList.remove(´ativa´)
+tecla.classList.remove('ativa')
     }
