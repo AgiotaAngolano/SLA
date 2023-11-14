@@ -41,7 +41,7 @@ function texto(){
       function nome(){
        var nome = document.getElementById("name").value;
         var h2 = document.getElementById("show4");
-       var mostr = "seja bem vindo(a)," + nome;h2.innerHTML = mostr
+       var mostr = "seja bem vindo(a), " + nome;h2.innerHTML = mostr
         
       }
       
